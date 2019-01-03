@@ -125,11 +125,6 @@ class Tick extends BaseTick
 	{
 		if (timer != null) timer.stop();
 	}
-
-	private inline function update(e:Event):Void 
-	{
-		callback();
-	}
 }
 #end
 
