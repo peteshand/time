@@ -1,6 +1,5 @@
 package time;
 
-import haxe.Timer;
 import notifier.Notifier;
 
 #if openfl
