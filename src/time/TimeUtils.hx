@@ -11,6 +11,16 @@ class TimeUtils
 		return value * from / to;
 	}
 
+	public static inline function milToYears(value:Float):Float
+	{
+		return convert(value, TimeUnit.MILLISECONDS, TimeUnit.YEARS);
+	}
+
+	public static inline function milToMonths(value:Float):Float
+	{
+		return convert(value, TimeUnit.MILLISECONDS, TimeUnit.MONTHS);
+	}
+
 	public static inline function milToDays(value:Float):Float
 	{
 		return convert(value, TimeUnit.MILLISECONDS, TimeUnit.DAYS);
@@ -31,6 +41,16 @@ class TimeUtils
 		return convert(value, TimeUnit.MILLISECONDS, TimeUnit.SECONDS);
 	}
 	
+	public static inline function yearsToMil(value:Float):Float
+	{
+		return convert(value, TimeUnit.YEARS, TimeUnit.MILLISECONDS);
+	}
+
+	public static inline function monthsToMil(value:Float):Float
+	{
+		return convert(value, TimeUnit.MONTHS, TimeUnit.MILLISECONDS);
+	}
+
 	public static inline function daysToMil(value:Float):Float
 	{
 		return convert(value, TimeUnit.DAYS, TimeUnit.MILLISECONDS);
