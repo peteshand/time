@@ -4,8 +4,8 @@
 	"license": "MIT",
 	"tags": ["time", "tick", "enterFrame"],
 	"description": "A simple helper library to add enterFrame listeners via a static class 'EnterFrame'.",
-	"version": "1.0.4",
-	"releasenote": "add month and day util",
+	"version": "1.0.5",
+	"releasenote": "minor updates",
 	"contributors": [ "p.j.shand" ],
 	"classPath": "src/",
 	"dependencies": {

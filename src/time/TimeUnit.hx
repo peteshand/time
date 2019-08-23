@@ -4,7 +4,7 @@ package time;
  * ...
  * @author P.J.Shand
  */
-@:enum abstract TimeUnit(Float) to Float from Float {
+@:enum abstract TimeUnit(Float) to Float {
 	
 	public var MILLISECONDS = 1;
 	public var SECONDS = 1000;
